@@ -23,3 +23,7 @@ build
 *.swp
 /defs.mk
 *.orig
+
+# Kernel output files
+root/kernel
+root/kernel-**
