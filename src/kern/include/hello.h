@@ -2,9 +2,12 @@
 #define _HELLO_H_
 
 
-#include "types.h";
-#include "lib.h";
+#include "types.h"
+#include "lib.h"
+#include "opt-hello.h"
 
-void hello(void);
+#if OPT_HELLO
+    void hello(void);
+#endif
 
 #endif

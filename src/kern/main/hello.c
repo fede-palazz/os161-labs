@@ -1,4 +1,4 @@
-#include "hello.h";
+#include "hello.h"
 
 void hello(void) {
     kprintf("Hello");
