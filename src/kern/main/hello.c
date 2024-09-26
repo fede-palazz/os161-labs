@@ -1,5 +1,5 @@
 #include "hello.h"
 
 void hello(void) {
-    kprintf("Hello");
+    kprintf("Hello World!\n");
 }
